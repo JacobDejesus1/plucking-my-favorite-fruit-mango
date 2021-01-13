@@ -23,7 +23,7 @@ class Chain{
         var pointA = this.chain.bodyA.position;
         var pointB = this.pointB
         strokeWeight(4);
-        line(pointA.x, pointA.y, pointB, pointB.y);
+        line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
     
